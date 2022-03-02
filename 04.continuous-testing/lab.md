@@ -38,7 +38,7 @@ Your job is to write the functions that will accept those parameters from the us
 
 Run tests by running `pytest` in the terminal from the directory you defined as PWD before.
 
-Help yourself with the (pytest documentation)[https://docs.pytest.org/en/7.0.x/getting-started.html].
+Help yourself with the [pytest documentation](https://docs.pytest.org/en/7.0.x/getting-started.html).
 
 ## Adding Redis database
 
