@@ -72,10 +72,14 @@ Docker objects are available to be observed and controlled using the command `do
 
 ## Example of a Docker workflow
 
-1. Developers write code locally and share their work with their colleagues using Docker containers.
-2. They use Docker to push their applications into a test environment and execute automated and manual tests.
-3. When developers find bugs, they can fix them in the development environment and redeploy them to the test environment for testing and validation.
-4. When testing is complete, getting the fix to the customer is as simple as pushing the updated image to the production environment.
+1. Develop the code locally (in virtual environment or in the container).
+2. Write Docker file.
+3. Create Docker images
+4. Run the containers and conect them in a functional application
+5. Test your application
+6. Deploy the container to production
+
+![life-cycle-docker-app](image/life-cycle-docker-app.png)
 
 ## CLI commands
 
