@@ -109,7 +109,7 @@ Before you can start the lab, you have to:
 1. Docker Compose should be included in your Docker installation (on Windows and Mac at least). If not, install it using the official [instructions](https://docs.docker.com/compose/install/).
 2. Navigate to the [`assets/hello-world-docker-compose`](assets/hello-world-docker-compose) directory and check out the `dbClient.js`, `server.js`, `package.json` and `Dockerfile` files.
 3. Build the Docker image inside this directory with the name on your choice
-4. Fill the missing part of the `docker-compose.yaml` file to make it use the container you just built. You can take inspiration from [that example](content.md#docker-compose-example).
+4. Fill the missing part of the `docker-compose.yaml` file to make it use the container you just built. You can take inspiration from [that example](index.md#docker-compose-example).
 5. Start the containers with `docker-compose up`
 6. Visit `localhost:5000` in your web browser and hit refresh a couple of times
 7. Stop the containers by running `CTRL+C` in the previous terminal
