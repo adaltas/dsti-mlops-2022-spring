@@ -10,11 +10,11 @@ We will follow [this tutorial](https://www.freecodecamp.org/news/end-to-end-mach
 
 **Dependencies:**
 
-- script: `wine_linear_regression_test.py`
+- script: `model.py` in zip file in `lab-resources`
 
 **Instructions:**
 
-By now, we created and tested a model. But we only have a source code, which is not enough to deploy. First we need to save the model we want to deploy as a pickle file. Add the following code to the end of the `wine_linear_regression_test.py`. Run it to produce the pickled model.
+By now, we created and tested a model. But we only have a source code, which is not enough to deploy. First we need to save the model we want to deploy as a pickle file. Add the following code to the end of the `model.py`. Run it to produce the pickled model.
 
 ``` python
 import pickle
