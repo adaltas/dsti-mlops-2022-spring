@@ -70,11 +70,9 @@ How can data change with time?
 - When we can think of a dataset, we can imagine two different categories of the data:
   - Target variable
   - Everything else
-- Even though both are ‘data’, they don’t behave the same in real time
-  - Availability!
 - According to this properties we separate two categories of issues
   - **Data drift**: change in the distribution of the variables
-  - **Concept (target) drift**: the relationships between the variables and the data change; business problem changes
+  - **Concept (target) drift**: the statistical properties of the target variable change over time; business problem changes
     - *Gradual*:
       - Consequence of evolution/adaptation
       - Normal and expected
